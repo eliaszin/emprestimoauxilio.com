@@ -10,11 +10,46 @@
     <link rel="stylesheet" href="assets/main.css">
     <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico">
     
+    <!-- Global site tag (gtag.js) - Google Ads: 411530740 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-411530740"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-411530740');
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y3PJC0WGP9"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y3PJC0WGP9');
+    </script>
+
     <script src="https://kit.fontawesome.com/8a64070044.js" crossorigin="anonymous"></script>
 
     <title>Termos de Uso</title>
 </head>
 <body>
+    <!-- Event snippet for Contato WhatsApp conversion page -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-411530740/ym7WCNfToM0DEPTrncQB',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
     <header>
 
     </header>
@@ -55,7 +90,7 @@
                 <p>Durante a utilização deste website, certos dados pessoais serão coletados e tratados por J E Promotora de Crédito e/ou pelos Parceiros. As regras relacionadas ao tratamento de dados pessoais de J E Promotora de Crédito estão estipuladas na Política de Privacidade.</p>
                 <h3>Seção 9 - Contato</h3>
                 <p>Caso você tenha qualquer dúvida sobre os Termos de Uso, por favor, entre em contato pelo e-mail sac@emprestimoauxilio.com.</p>
-                <a class="btn" href="https://api.whatsapp.com/send?phone=5585985934385&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20o%20Empr%C3%A9stimo%20do%20Aux%C3%ADlio%20Brasil"><i class="fab fa-whatsapp"></i> SOLICITAR EMPRÉSTIMO</a>
+                <a onclick="gtag_report_conversion ('https://api.whatsapp.com/send?phone=5585985934385&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20o%20Empr%C3%A9stimo%20do%20Aux%C3%ADlio%20Brasil')" class="btn" href="https://api.whatsapp.com/send?phone=5585985934385&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20o%20Empr%C3%A9stimo%20do%20Aux%C3%ADlio%20Brasil"><i class="fab fa-whatsapp"></i> SOLICITAR EMPRÉSTIMO</a>
             </div>
         </div>
     </main>
