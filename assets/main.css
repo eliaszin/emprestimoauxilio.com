@@ -133,3 +133,7 @@ div.bgblack {
     color: #FFFFFF;
     background-color: #222222;
 }
+
+p.termos {
+    font-size: 1.2rem;
+}
