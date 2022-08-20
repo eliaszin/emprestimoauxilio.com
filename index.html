@@ -12,48 +12,46 @@
         <link rel="stylesheet" href="assets/main.css">
         <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico">
         <title>Solicite o Empréstimo Consignado do Auxílio Brasil</title>
-        
-        <!-- Google Tag Manager -->
-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-        })(window,document,'script','dataLayer','GTM-PFXNX6M');</script>
-        <!-- End Google Tag Manager -->
 
         <!-- Global site tag (gtag.js) - Google Ads: AW-411530740 -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=AW-411530740"></script>
         <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'AW-411530740');
+            gtag('config', 'AW-411530740');
         </script>
 
         <!-- Event snippet for Contato WhatsApp conversion page
         In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
         <script>
-        function gtag_report_conversion(url) {
-          var callback = function () {
-            if (typeof(url) != 'undefined') {
-              window.location = url;
+            function gtag_report_conversion(url) {
+            var callback = function () {
+                if (typeof(url) != 'undefined') {
+                window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-411530740/ym7WCNfToM0DEPTrncQB',
+                'event_callback': callback
+            });
+            return false;
             }
-          };
-          gtag('event', 'conversion', {
-              'send_to': 'AW-411530740/ym7WCNfToM0DEPTrncQB',
-              'event_callback': callback
-          });
-          return false;
-        }
+        </script>
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXYW6H3XX"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-YVXYW6H3XX');
         </script>
     </head>
 
     <body>
-        <!-- Google Tag Manager (noscript) -->
-        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PFXNX6M"
-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
         
         <header>
             <div>
@@ -61,6 +59,7 @@
                 <a class="btn mt0" onclick="return gtag_report_conversion('https://api.whatsapp.com/send?phone=5585992841145&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20o%20Empr%C3%A9stimo%20do%20Aux%C3%ADlio%20Brasil');" href="https://api.whatsapp.com/send?phone=5585992841145&text=Ol%C3%A1%2C%20gostaria%20de%20solicitar%20o%20Empr%C3%A9stimo%20do%20Aux%C3%ADlio%20Brasil"><i class="fa-brands fa-whatsapp"></i> Quero solicitar</a>
             </div>
         </header>
+
         <main>
             <div>
                 <div>
@@ -97,6 +96,7 @@
                 </div>
             </div>
         </main>
+
         <footer>
             <div>
                 <a href="privacidade.html">Política de Privacidade</a>
