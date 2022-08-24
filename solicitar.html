@@ -13,6 +13,8 @@
     <link rel="icon" type="image/x-icon" href="assets/media/favicon.ico">
     <title>Solicite o Empréstimo Consignado do Auxílio Brasil</title>
 
+    <script src="https://kit.fontawesome.com/8a64070044.js" crossorigin="anonymous"></script>
+
     <!-- Global site tag (gtag.js) - Google Ads: AW-411530740 -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-411530740"></script>
     <script>
@@ -23,32 +25,32 @@
         gtag('config', 'AW-411530740');
     </script>
 
-<!-- Event snippet for Iniciar Inscrição conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-    function gtag_report_conversion(url) {
-    var callback = function () {
-        if (typeof(url) != 'undefined') {
-        window.location = url;
+    <!-- Event snippet for Iniciar Inscrição conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+        var callback = function () {
+            if (typeof(url) != 'undefined') {
+            window.location = url;
+            }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-411530740/m_8vCNn35tgDEPTrncQB',
+            'event_callback': callback
+        });
+        return false;
         }
-    };
-    gtag('event', 'conversion', {
-        'send_to': 'AW-411530740/m_8vCNn35tgDEPTrncQB',
-        'event_callback': callback
-    });
-    return false;
-    }
 </script>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXYW6H3XX"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YVXYW6H3XX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    gtag('config', 'G-YVXYW6H3XX');
-</script>
+        gtag('config', 'G-YVXYW6H3XX');
+    </script>
 </head>
 
 <body>
@@ -64,7 +66,7 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
         <div>
             <div>
                 <h1>Solicite o Empréstimo do Auxílio Brasil</h1>
-                <h2 class="mb0">Até <strong>R$ 2.500,00</strong> de crédito liberado no mesmo dia</h2>
+                <h2 class="mb0">Até <strong>R$ 2.200,00</strong> de crédito liberado no mesmo dia</h2>
                 <hr>
                 <h3 class="mt0">Como funciona?</h3>
                 <p class="mt0">Atualmente a maneira mais fácil de solicitar o Empréstimo do Auxílio Brasil é através de uma Promotora de Crédito, que é a empresa responsavel por conseguir o crédito para o benefíciario com uma instituição financeira.</p>
@@ -107,6 +109,5 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <p class="termos">Informações complementares para o Empréstimo Consignado Auxílo Brasil: Prazo para quitação mínimo 6 meses, máximo 24 meses. (APR) Taxa de juros a.a não estabelecida por lei. Média de juros a.m 3.5%-4.9%. Buscaremos as melhores condições/taxas para o momento de sua contratação. "Exemplo - Empréstimo de R$2000, com taxa de juros de 4,19% ao mês para pagar em 24 meses - O total desse empréstimo de 24 parcelas de 133,74 reais é 3.209,76 reais, sendo 1.209,76 de juros."</p>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/8a64070044.js" crossorigin="anonymous"></script>
 </body>
 </html>
